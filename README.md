@@ -2,7 +2,7 @@
 
 This script was created as part of the second exercise on Systems' Programming course - Departement of Informatics and Telecommunications, National & Kapodistrian Uneversity of Athens.
 
-# RUN
+# Run
 
 **./create_infiles.sh  diseasesFile  countriesFile  input_dir  numFilesPerDirectory numRecordsPerFile**
 
@@ -16,7 +16,7 @@ This script was created as part of the second exercise on Systems' Programming c
 
 - numRecordsPerFile: number of records per file (integer and positive number)
 
-# IMPLEMENTATION
+# Implementation
 
 At the beginning the necessary checks take place. If the number of arguments is not the expected (5) or either one of the two last arguments is not an integer positive number then a message is printed and the script terminates. If there are no errors, it creates a folder with name input_dir. Then it creates one subdirectory for every country in countriesFile. In each subdirectory numFilesPerDirectory files with numRecordsPerFile entries are created. The name of each file is a random date DD-MM-YYYY. Each entry consists of:
 
